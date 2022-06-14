@@ -99,6 +99,23 @@ body {
 }
 /*end of about me*/
 
+/*start of gellery*/
+
+#gallery {
+	background-color: #193153;
+}
+
+.button-preview {
+	background-color: #CEA434;
+	color: #193153;
+}
+
+.card {
+	border-bottom: 3px solid yellow;
+}
+
+/*end of gellery*/
+
 /*start of contacts*/
 #contact {
 	background-color: #122948;
