@@ -9,6 +9,8 @@ body {
 	background-color: #0E1F33;
 }
 
+
+/*end of navbar*/
 #nav-bar {
 	background-color: #122948;
 }
@@ -50,11 +52,13 @@ body {
 	font-size: 2rem;
 	
 }
+/*end of navbar*/
 
+/*start of about me*/
 #about-me {
-	background-color: #CEA434;
+	background-color: rgba(81, 64, 20, 0.25);
 	min-height: 50vh;
-	padding: 2rem;
+	max-height: 250vh;
 }
 
 .about-me {
@@ -65,9 +69,9 @@ body {
 	margin: 0;
 }
 
-#carouselExampleIndicators {
-	min-height: 150px;
+.carousel-item {
 	max-height: 600px;
+	width: auto;
 }
 
 .name {
@@ -79,3 +83,44 @@ body {
 	font-weight: bold;
 	color: #122948;
 }
+
+.info {
+	background-color: rgba(10, 19, 33, 0.25);
+	font-size: 1.2rem;
+}
+
+.basic-info {
+	list-style-type: none;
+
+}
+
+.p-1 {
+	background-color: rgba(10, 19, 33, 0.25);
+}
+/*end of about me*/
+
+/*start of contacts*/
+#contact {
+	background-color: #122948;
+	padding: 1rem;
+	color: #CEA434;
+}
+
+.contacts {
+	color: #CEA434;
+	font-weight: bold;
+}
+
+.media-link {
+	color: #CEA434;
+	border: 2px solid transparent;
+	font-size: 1.5rem;
+	padding: 0;
+}
+
+
+.logo {
+	height: 50px;
+	width: auto;
+}
+/*end of contacts*/
