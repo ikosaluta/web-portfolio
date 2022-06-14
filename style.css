@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Baloo 2", sans-serif;
+	background-color: #0E1F33;
+}
+
+#nav-bar {
+	background-color: #122948;
+}
+
+.navbar-brand {
+	color: #CEA434;
+	font-weight: bold;
+}
+
+.nav-link {
+	color: #CEA434;
+	border: 2px solid transparent;
+}
+
+.nav-link:hover {
+	text-decoration: none;
+	border-bottom: 2px solid #CEA434;
+	transition: 1s ease;
+	
+}
+
+.navbar-toggler-icon {
+	color: #CEA434;
+	font-weight: bold;
+}
+
+#landing {
+	background-color: #0E1F33;
+	min-height: 50vh;
+}
+
+.line-even {
+	color: #CEA434;
+	font-weight: bold;
+	font-size: 3rem;
+}
+
+.line-odd {
+	font-size: 2rem;
+	
+}
+
+#about-me {
+	background-color: #CEA434;
+	min-height: 50vh;
+	padding: 2rem;
+}
+
+.about-me {
+	font-size: 2rem;
+	color: #CEA434;
+	font-weight: bold;
+	background-color: #122948;
+	margin: 0;
+}
+
+#carouselExampleIndicators {
+	min-height: 150px;
+	max-height: 600px;
+}
+
+.name {
+	font-weight: bold;
+	color: #122948;
+}
+
+.highlight {
+	font-weight: bold;
+	color: #122948;
+}
