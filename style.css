@@ -110,9 +110,10 @@ body {
 	background-color: #193153;
 }
 
-.button-preview {
+#preview {
 	background-color: #CEA434;
 	color: #193153;
+	border: 1px solid #193153;
 }
 
 .card-body {
@@ -154,3 +155,17 @@ body {
 	width: auto;
 }
 /*end of contacts*/
+
+/*start of forms*/
+#forms {
+	background-color: #122948;
+	color: #0E1F33;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+#forms-header {
+	background-color: #0E1F33;
+
+}
+/*end of forms*/

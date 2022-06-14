@@ -115,10 +115,10 @@
             <li>Religion: <em>Roman Catholic</em></li>
           </ul>
           <p class="p-2">
-            I'm a <strong class="highlight">Licensed Civil Engineer</strong> from the <span class="bg-warning highlight"> University of Santo Tomas </span>, Sampaloc, Manila. I have been exposed in the construction industry for more than 3 years now and I have established my own design and build construction company, <a href="https://www.facebook.com/lunaquarter.design" class="highlight">Luna Quarter Builders Inc.</a>
+            I'm a <strong class="highlight">Licensed Civil Engineer</strong> from the <span class="bg-warning highlight p-1"> University of Santo Tomas </span>, Sampaloc, Manila. I have been exposed in the construction industry for more than 3 years now and I have established my own design and build construction company, <a href="https://www.facebook.com/lunaquarter.design" class="highlight">Luna Quarter Builders Inc.</a>
           </p>
           <p class="p-2">
-            Aside from my day job, I have always been passionate about photography. Beautiful photos capture moments, landscape and scenic views as if they carry stories to be told. I also enjoy traveling. I love surfing. My outgoing and energetic personality are waves cascading ashore. Hereafter, I am still in the pursuit of finding my own Personal Legend.
+            Aside from my day job, I have always been passionate about photography. Beautiful photos capture moments, landscape and scenic views as if they carry stories to be told. I also enjoy traveling. I love surfing and music. My outgoing and energetic personality are waves cascading ashore. Hereafter, I am still in the pursuit of finding my own <em class="highlight">Personal Legend.</em>
           </p>
         </div> 
       </div>
@@ -128,7 +128,7 @@
 
   <!-- gallery Start -->
   <h2 class="projects text-center pt-2 pb-3">Projects</h2>
-  <div id="gallery" class="container-fluid p-2 d-flex flex-column justify-content-center flex-lg-row justify-content-lg-around text-center">
+  <div id="gallery" class="container-fluid p-2 d-flex flex-column justify-content-center flex-md-row justify-content-md-around text-center">
     <div class="row ">
       <!-- start of card -->
 
@@ -138,7 +138,7 @@
           <div class="card-body">
             <h5 class="card-title border bg-warning p-1 pt-2 pb-2 rounded-pill">Capstone Project 1</h5>
             <p class="card-text">Made a portfolio using HTML, CSS, and Bootstrap</p>
-            <a href="file:///C:/Users/Cis%20PC/Documents/batch-189/s13-14/index.html" class="btn button-preview">Preview Project</a>
+            <a id="preview" href="file:///C:/Users/Cis%20PC/Documents/batch-189/s13-14/index.html" class="btn preview">Preview Project</a>
           </div>
         </div>  
       </div>
@@ -149,7 +149,7 @@
           <div class="card-body">
             <h5 class="card-title border bg-warning p-1 pt-2 pb-2 rounded-pill">Capstone Project 2</h5>
             <p class="card-text">Coming Soon!</p>
-            <a href="file:///C:/Users/Cis%20PC/Documents/batch-189/s13-14/index.html" class="btn button-preview">Preview Project</a>
+            <a id="preview" href="file:///C:/Users/Cis%20PC/Documents/batch-189/s13-14/index.html" class="btn preview">Preview Project</a>
           </div>
         </div>  
       </div>
@@ -160,7 +160,7 @@
           <div class="card-body">
             <h5 class="card-title border bg-warning p-1 pt-2 pb-2 rounded-pill">Capstone Project 3</h5>
             <p class="card-text">Coming Soon!</p>
-            <a href="file:///C:/Users/Cis%20PC/Documents/batch-189/s13-14/index.html" class="btn button-preview">Preview Project</a>
+            <a id="preview" href="file:///C:/Users/Cis%20PC/Documents/batch-189/s13-14/index.html" class="btn preview">Preview Project</a>
           </div>
         </div>  
       </div>
@@ -226,6 +226,62 @@
   </div>
 </div>
 <!-- Contact Me End -->
+
+<!-- start of inquiry -->
+<div id="forms-header">
+  <h4 class="text-light p-3">Do you have any questions?</h4>
+  <h2 class="text-warning m-0 text-center pb-3">Hit me up!</h2>
+</div>
+
+<div id="forms" class=" text-center d-flex justify-content-center p-5">
+  <!-- start of form -->  
+  <form class="container bg-warning p-3 col-md-8 col-xl-4 rounded">
+    <div class="row">
+      <div class="container-fluid ">
+        <label  for="full_name">Name</label> <br>
+        <input class="container-fluid" type="text" name="full_name" id="full_name" required><br>
+
+        <label  for="full_name">Email Address</label> <br>
+        <input class="container-fluid" type="email" name="email" id="email" required><br>
+
+
+        <label  for="message">Message</label><br>
+        <textarea class="container-fluid" name="message" rows="5" id="message"></textarea><br>
+
+        <br>
+
+        <!-- modal start -->
+        <!-- Button trigger modal -->
+        <button type="button submit" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">
+          Send Inquiry
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-dark" id="exampleModalLabel">Thank you for reaching me out!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body text-dark">
+                Message Succesfully Sent
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- modal end -->
+      </div>
+    </div>        
+  </form>
+</div>
+
+<!-- end of inquiry -->
 
 
 
