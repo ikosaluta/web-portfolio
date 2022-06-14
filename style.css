@@ -97,6 +97,11 @@ body {
 .p-1 {
 	background-color: rgba(10, 19, 33, 0.25);
 }
+
+.c-image {
+	max-height: 150vh;
+	width: auto;
+}
 /*end of about me*/
 
 /*start of gellery*/
@@ -110,8 +115,9 @@ body {
 	color: #193153;
 }
 
-.card {
-	border-bottom: 3px solid yellow;
+.card-body {
+	border-bottom: 5px solid #CEA434;
+	background-color: #F1F1F3;
 }
 
 /*end of gellery*/
@@ -121,6 +127,13 @@ body {
 	background-color: #122948;
 	padding: 1rem;
 	color: #CEA434;
+}
+
+.projects {
+	color: #CEA434;
+	font-weight: bold;
+	background-color: #193153;
+	margin: 0px;
 }
 
 .contacts {
