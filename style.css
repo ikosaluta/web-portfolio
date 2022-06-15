@@ -32,7 +32,7 @@ body {
 .nav-link:hover {
 	text-decoration: none;
 	border-bottom: 2px solid #CEA434;
-	transition: 1s ease;
+	transition: 0.5s ease;
 	
 }
 
@@ -153,6 +153,12 @@ body {
 	padding: 0;
 }
 
+.media-link:hover {
+	text-decoration: none;
+	border-bottom: 2px solid #CEA434;
+	transition: 0.5s ease;
+}
+
 
 /*.logo {
 	height: 50px;
@@ -174,3 +180,7 @@ body {
 	font-size: 1.5rem;
 }
 /*end of forms*/
+
+#go-to-top {
+	background-color: #0E1F33;
+}
