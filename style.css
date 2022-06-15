@@ -161,15 +161,16 @@ body {
 /*end of contacts*/
 
 /*start of forms*/
+
+#fheader {
+	background-color: #0E1F33;
+
+}
+
 #forms {
 	background-color: #122948;
 	color: #0E1F33;
 	font-weight: bold;
 	font-size: 1.5rem;
-}
-
-#forms-header {
-	background-color: #0E1F33;
-
 }
 /*end of forms*/
